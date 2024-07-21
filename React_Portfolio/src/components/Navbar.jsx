@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     // turns back ground color for my logo and for my initals red which are Jm for Navbar
     // mb -20 was added to change something with the navbar between red and flex
-    <nav className='bg-red-900 flex items-center justify-between py-8 max-h-9'>
+    <nav className='flex items-center justify-between py-8 max-h-9'>
         {/* comment about changing the logo size with max width 14 */}
     <div className='flex flex-shrink-0 items-center max-w-14'>
     <img src={logo} alt='logo' />
