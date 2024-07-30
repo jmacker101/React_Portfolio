@@ -2,7 +2,7 @@ import logo from '../assets/JeovanMillsLogo2.png';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
-import { FaYoutubeSquare } from 'react-icons/fa';
+// import { FaYoutubeSquare } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -16,10 +16,10 @@ const Navbar = () => {
       </div>
       {/* for the icons i will be using for my socials */}
       <div className='m-8 flex items-center justify-center gap-4 text-2x1'>
-        <FaLinkedin />
-        <FaGithub />
-        <FaSquareXTwitter />
-        <FaYoutubeSquare />
+       <a href="https://www.linkedin.com/feed/"><FaLinkedin /> </a> 
+       <a href="https://github.com/jmacker101"><FaGithub /></a> 
+        <a href="https://x.com/JeovanMill24018"><FaSquareXTwitter /></a>
+        {/* <a href=""><FaYoutubeSquare /></a> */}
       </div>
     </nav>
   );

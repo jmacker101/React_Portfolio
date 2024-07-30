@@ -1,9 +1,10 @@
 import About from "./components/About";
-import Experience from "./components/Experience";
+// import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -19,8 +20,9 @@ const App = () => {
         <Hero />
         <About />
         <Technologies />
-        <Experience />
+        {/* <Experience /> */}
         <Projects />
+        <Contact />
       </div>
     </div>
   );

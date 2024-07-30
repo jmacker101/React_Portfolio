@@ -1,7 +1,7 @@
 import { RiReactjsLine } from 'react-icons/ri';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { SiMongodb } from 'react-icons/si';
-import { DiRedis } from 'react-icons/di';
+import { DiMysql } from 'react-icons/di';
 import { FaNodeJs } from 'react-icons/fa';
 import { BiLogoPostgresql} from 'react-icons/bi';
 
@@ -24,7 +24,7 @@ const Technologies = () => {
         </div>
         {/* mysql */}
         <div className='rounded-2xl border-4 border-neutral-800 p-4'>
-            <DiRedis className='text-7xl text-red-700'/>
+            <DiMysql className='text-7xl text-sky-600'/>
         </div>
         {/* node.js */}
         <div className='rounded-2xl border-4 border-neutral-800 p-4'>
