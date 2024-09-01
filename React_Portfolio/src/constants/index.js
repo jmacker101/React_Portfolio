@@ -41,32 +41,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Gotta Code 'em All",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "Javascript", "Node.js", "MongoDB"],
+      "A functional application is to build a Pokémon site that allows users to discover the evolution levels and methods for each Pokémon.while also aiming to provide a tracker for finding out what level or how your Pokemon evolves, as well as for building a team you like.",  
+    technologies: ["HTML", "CSS", "Javascript",],
   },
   {
-    title: "Task Management App",
+    title: "FitMon",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "An application for managing workouts by choosing certain body parts and tracking your progress that you choose.while also playing a broswer game for pokemon",
     technologies: ["HTML", "CSS", "Javascript", ""],
   },
   {
-    title: "Portfolio Website",
+    title: " React Portfolio",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "tailwind"],
+    technologies: ["HTML", "CSS", "React", "tailwind", "JavaScript"],
   },
   {
-    title: "Blogging Platform",
+    title: "Root2Roast",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Provides a personalized profile, communities & groups, inspiration & discovery, and an activity feed.",
+    technologies: ["React", "Node.js", "MongoDB", "Express", "JWT"], 
   },
 ];
 
