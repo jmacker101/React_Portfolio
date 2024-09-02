@@ -15,8 +15,9 @@ const Hero = () => {
             Jeovan Mills
           </motion.h1>
           {/* different tag to use other than span*/}
+          {/* had to change the full stack developer span to a div for it to work probably */}
           {/* adding a motion to to full stack developer*/}
-          <motion.span
+          <motion.div
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 1.1 }}
             drag="x"
@@ -24,7 +25,7 @@ const Hero = () => {
             className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-light text-transparent"
           >
             Full Stack Developer
-          </motion.span>
+          </motion.div>
           <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
             {HERO_CONTENT}
           </p>

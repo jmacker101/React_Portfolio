@@ -45,14 +45,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "A functional application is to build a Pokémon site that allows users to discover the evolution levels and methods for each Pokémon.while also aiming to provide a tracker for finding out what level or how your Pokemon evolves, as well as for building a team you like.",  
-    technologies: ["HTML", "CSS", "Javascript",],
+    technologies: ["HTML", "CSS", "Javascript", ],
   },
   {
     title: "FitMon",
     image: project2,
     description:
       "An application for managing workouts by choosing certain body parts and tracking your progress that you choose.while also playing a broswer game for pokemon",
-    technologies: ["HTML", "CSS", "Javascript", ""],
+    technologies: ["HTML", "CSS", "Javascript", ],
   },
   {
     title: " React Portfolio",
