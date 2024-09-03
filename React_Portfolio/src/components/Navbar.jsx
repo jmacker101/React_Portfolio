@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       {/* for the icons i will be using for my socials */}
       <div className='m-8 flex items-center justify-center gap-4 text-2x1'>
-       <a href="www.linkedin.com/in/jeovan-mills-b1a3aa314"><FaLinkedin /> </a> 
+       <a href="https://www.linkedin.com/in/jeovan-mills-b1a3aa314"><FaLinkedin /> </a>
        <a href="https://github.com/jmacker101"><FaGithub /></a> 
         <a href="https://x.com/JeovanMill24018"><FaSquareXTwitter /></a>
         {/* <a href=""><FaYoutubeSquare /></a> */}
